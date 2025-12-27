@@ -11,6 +11,7 @@ public class PercentageSalaryWorker extends Worker {
         this.percent = percent;
     }
 
+    @Override
     public void calculateSalary() {
         System.out.println("Начисление почасовой зарплаты.\nДолжность: " + position + "\nПроцент составляет: " + percent + "%");
 
@@ -25,3 +26,4 @@ public class PercentageSalaryWorker extends Worker {
     }
 
 }
+
