@@ -13,6 +13,7 @@ public class HourlySalaryWorker extends Worker {
         this.numberOfHours = numberOfHours;
     }
 
+    @Override
     public void calculateSalary() {
         System.out.println("Начисление почасовой зарплаты.\nДолжность: " + position + "\nКоличество отработанных часов за месяц: " + numberOfHours + " часов");
 
@@ -26,3 +27,4 @@ public class HourlySalaryWorker extends Worker {
         System.out.println("Начислено: " + enrolled + " бел. р.");
     }
 }
+
